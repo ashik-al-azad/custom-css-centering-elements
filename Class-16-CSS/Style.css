@@ -1,0 +1,40 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.header-area{
+   background: #1abc9c;
+   height: 250px;
+}
+.left-area{
+   background: #2ecc71;
+   width: 25%;
+   height: 250px;
+   float: left;
+}
+.center-area{
+   background: #3498db;
+   width: 50%;
+   height: 250px;
+   float: left;
+}
+.right-area{
+   width: 25%;
+   background: #9b59b6;
+   height: 250px;
+   float: left;
+}
+.footer-area{
+   background: #f1c40f;
+   height: 250px;
+}
+.total::after{
+   content: '';
+   display: block;
+   clear: both;
+}
+@media all and  (max-width:700px){
+   .center-area{
+      background: green;
+   }
+}

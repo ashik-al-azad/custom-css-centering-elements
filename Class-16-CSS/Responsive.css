@@ -1,0 +1,31 @@
+@media all and (max-width:800px){
+   .left-area{
+      background: #2ecc71;
+      width: 30%;
+   }
+   .center-area{
+      background: #3498db;
+      width: 40%;
+   }
+   .right-area{
+      width: 30%;
+      background: #9b59b6;
+   }
+}
+@media all and (max-width:1000px){
+   .left-area{
+      background: #2ecc71;
+      width: 100%;
+      float: none;
+   }
+   .center-area{
+      background: #3498db;
+      width: 100%;
+      float: none;
+   }
+   .right-area{
+      width: 100%;
+      background: #9b59b6;
+      float: none;
+   }
+}
